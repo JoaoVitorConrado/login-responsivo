@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@media screen and ( min-width: 768px){
+   #login{
+    width: 50vw;
+    
+   } 
+   #login > #imagem{
+        
+        float: left;
+        width: 30%;
+        height: 100%;
+   }
+  #login > #formulario{
+    padding: 20px;
+    float: right;
+    width: 70%;
+    height: 100%;
+   }
+   form > div > input[type=submit]{
+       margin-top: 177px; 
+   }
+}
+
+@media screen and (min-width: 992px){
+    #login{
+        width: 60vw;
+        height: 550px;
+    }
+    #login > #imagem{
+        
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    #login > #formulario{
+        padding: 30px;
+        float: right;
+        width: 60%;
+        height: 100%;
+    }
+    #formulario > h1{
+        font-size: 2em;
+    }
+    #formulario > p{
+        font-size: 1.3em;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px){
+    #login{
+        width: 990px;
+        height: 600px;
+    }
+    #login > #imagem{
+        
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    #login > #formulario{
+        padding: 40px;
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+
+
+
+/*FLOAT: vc consegue posiciionar divs da maneira q vc quiser, mas quando coocamos o float é necessario colocar uma largura e altura especifica p ele*/
